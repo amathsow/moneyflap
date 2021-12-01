@@ -1,0 +1,110 @@
+
+
+
+    <div class="card">
+      <!-- TOP -->
+      
+      <div class="card-image position-relative">
+        <a href="./product-page.html" class="text-dark">
+          <div class="bid-state-winning">
+            <div class="bid-state-content mx-2"><img src="../../assets/images/icons/win.svg" alt=""><h5 class="mr-2">Winning</h5></div>
+          </div>
+          <img src="../../assets/images/product.png" class="card-img-top">
+        </a>
+        <!-- OVERLAYS -->
+
+
+          <div class="row align-items-center custom-overlay-position">
+            <span class="badge mr-2">
+              <img src="../../assets/images/icons/color.svg">
+              Orange
+            </span>
+            <span class="badge">
+              <img src="../../assets/images/icons/size.svg">
+              King
+            </span>
+            <img src="../../assets/images/icons/Favorite.svg" class="ml-auto">
+          </div>
+
+
+
+          <div class="row position-absolute custom-badge mx-3">
+            <a class="badge custom-badge pb-1 px-2" data-toggle="modal" data-target="#ItemType">
+              Overstock
+            </a>
+          </div>
+
+        <div class="modal fade" id="ItemType" tabindex="-1" role="dialog" aria-labelledby="ItemType" aria-hidden="true">
+          ${ require('./modal-item-type.html') }
+        </div>
+    </div>
+
+      <!-- BODY -->
+      <div class="card-body">
+        <a href="./product-page.html" class="text-dark text-decoration-none">
+        <p class="card-title mb-1">
+          Keegan fabric set of 2 orange dining chair
+        </p>
+        </a>
+        <a href="#" class="d-block text-secondary" data-toggle="modal" data-target="#State">
+          <img src="../../assets/images/icons/item-conditions/open-box.svg">
+          <p class="underline d-inline-block mb-1">
+          Open Box
+          </p>
+        </a>
+        <div class="modal fade" id="State" tabindex="-1" role="dialog" aria-labelledby="ItemState" aria-hidden="true">
+          ${ require('./modal-item-state.html') }
+        </div>
+
+        <div class="row my-2 align-items-center">
+          <div class="col">
+            <h3 class="font-weight-normal d-inline-block">
+              $95
+            </h3>
+            <a href="#" class=" card-link text-muted underline" data-toggle="modal" data-target="#BidHistory">
+              <small>
+                12 bids
+              </small>
+            </a>
+            <div class="modal fade" id="BidHistory" tabindex="-1" role="dialog" aria-labelledby="BidHistory" aria-hidden="true">
+              ${ require('./modal-bid-history.html') }
+            </div>
+            </div>
+
+          <p class="text-muted col-auto mb-0">
+            <small>
+              1d 8h 47m
+            </small>
+          </p>
+        </div>
+
+        <form class="row">
+          <div class="col pr-0">
+            <input type="number" class="form-control" id="BidInput" placeholder="$97">
+          </div>
+          <div class="col-auto">
+            <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#ConfirmBid">Bid</button>
+          </div>
+          <div class="modal fade" id="ConfirmBid" tabindex="-1" role="dialog" aria-labelledby="ConfirmBid" aria-hidden="true">
+            ${ require('./modal-confirm-bid.html') }
+          </div>
+        </form>
+
+        <div class="row align-items-center mt-2 d-flex" data-toggle="modal" data-target="#BidIncrements">
+          <img src="../../assets/images/icons/warning.svg" class="col-auto pr-0 d-inline-block ">
+          <small class="text-muted d-inline-block col fs-6 mb-0 pl-1">Enter max bid of  $97 or more.</small>
+        </div>
+        <div class="modal fade" id="BidIncrements" tabindex="-1" role="dialog" aria-labelledby="BidIncrements" aria-hidden="true">
+          ${ require('./modal-bid-increments.html') }
+        </div>
+
+        <!---  Ended Item (display:none)-->
+        <div class="row ended-product py-2 mt-2 mx-0 d-none">
+          <div class="col">
+              <p class="mb-0">Missed this item? Get the next one.</p>
+              <a class="">CREATE AN ALERT</a>
+          </div>
+        </div>
+      </div>
+
+    </div>

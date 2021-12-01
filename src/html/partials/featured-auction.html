@@ -1,0 +1,95 @@
+<div class="bg-white py-4">
+    <div class="container">
+        <div class="row" >
+                <div class="col-lg-7 col-md-12 order-lg-1 order-1">
+                    <div class="d-flex align-items-start">
+                        <h4 class="h4-responsive d-flex">Mid century modern for every room, designer linens, brand new mattresses, danish style, cabinets, vintage seating & more</h4>
+                        <a class="d-flex d-lg-none" data-toggle="collapse" href="#auction-text-collapse" role="button" aria-expanded="false" aria-controls="auction-text-collapse">
+                            <img src="../../assets/images/icons/chevron-down-red.svg" class="d-flex">
+                        </a>
+                    </div>
+                    <div id="textContainer" class="d-none d-lg-flex">
+                        <p id="truncateText" class="d-none d-lg-block text-truncate">
+                            Solid Sideboards, Lucite Legged Chesterfield Sofa, Leather Pushback Recliner, Top-Of-Line Vacuums, Velvet Side Chairs, Carson Carrington End Table,Leather Saddle Desk Chair, Vintage Wooden High Chair, Vera Wang Linens, Foam Mattresss Toppers, Hotel Colletction Bedding Sets, Outdoor Lighting, Luggage, Decorating Kits, Ice Cream Maeker ans more!
+                        </p>
+                        <span onclick="toggleClass()" id="toggleText" class="link-primary ml-3 text-danger">More</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 order-lg-2 order-3 text-right align-self-lg-start align-self-md-center ">
+                    <a href="./register.html"><button type="button" class="btn btn-outline btn-outline-primary">Join to Bid</button></a>
+                </div>
+                <div class="col-lg-3 col-6 order-lg-3 order-2 text-sm-left text-lg-right">
+                    <p class="display-title my-0">
+                        Ends In
+                        <span class="text-primary font-weight-bold d-block">
+                            1d 8h 17m 47s
+                        </span>
+                    </p>
+                    <p class="hide-tablet-mobile text-muted">Sun 17, Jan 2021 - 7 p.m. PT</p>
+                </div>
+                <div class="col-12 order-4 mt-2 collapse multi-collapse" id="auction-text-collapse">
+                    <p class="d-block d-lg-none">
+                        Solid Sideboards, Lucite Legged Chesterfield Sofa, Leather Pushback Recliner, Top-Of-Line Vacuums, Velvet Side Chairs, Carson Carrington End Table,Leather Saddle Desk Chair, Vintage Wooden High Chair, Vera Wang Linens, Foam Mattresss Toppers, Hotel Colletction Bedding Sets, Outdoor Lighting, Luggage, Decorating Kits, Ice Cream Maeker ans more!
+                    </p>
+                </div>
+        </div>
+
+        <div class="row border-feature my-5">
+            <div class="col-md-3">
+              <a href="#"><p class="pt-3 mt-4 color-black-text">See all 1425 items on auction <span><img width="25" src="../../assets/images/right-arrow.png" alt=""></span></p></a>
+            </div>
+            <div class="col-md-9 m-0 mx-auto">
+              <div class="row">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <img class="my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                <div class="feature-div">
+                  <img class="all-feature my-3 mx-1 img-feature img-fluid" src="../../assets/images/product.png" alt="">
+                  <div class="feature-text">
+                    <a href="#">
+                      <p class="color-black-text price-feature">+1415</p>
+                    </a>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="row hide-tablet-mobile" >
+            <div class="col-9 ">
+                <div class="d-flex me-auto mr-3">
+                    <img src="../../assets/images/icons/map-marker.svg" class="mr-2">
+                    8535 Production Ave, San Diego, CA 92121
+                    <a href="#" class="link-primary ml-3 text-danger" type="button" data-toggle="modal" data-target="#AuctionTerms">Auction terms</a>
+                    <a href="#" class="link-primary ml-3 text-danger" type="button" data-toggle="modal" data-target="#BidIncrements">Bid Increments</a>
+
+                </div>
+                <div class="modal fade" id="AuctionTerms" tabindex="-1" role="dialog" aria-labelledby="AuctionTerms" aria-hidden="true">
+                    ${ require('./modal-auction-terms.html') }
+                </div>
+                <div class="modal fade" id="BidIncrements" tabindex="-1" role="dialog" aria-labelledby="BidIncrements" aria-hidden="true">
+                    ${ require('./modal-bid-increments.html') }
+                </div>
+            </div>
+
+            <div class="col-3 text-right">
+                <a href="#" class="link-primary text-danger" type="button" data-toggle="modal" data-target="#ImportantDates">Important dates</a>
+            </div>
+            <div class="modal fade" id="ImportantDates" tabindex="-1" role="dialog" aria-labelledby="ImportantDates" aria-hidden="true">
+                ${ require('./modal-important-dates.html') }
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

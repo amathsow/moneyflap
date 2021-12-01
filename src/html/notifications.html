@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frontend Starter</title>
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    ${ require('./partials/head.html') }
+  </head>
+  <body class="bg-light">
+    ${ require('./partials/browserupgrade.html') } ${
+    require('./partials/header.html') }
+
+    <main>
+      ${ require('./partials/notifications-view.html') }
+    </main>
+
+    ${ require('./partials/footer.html') }
+  </body>
+</html>

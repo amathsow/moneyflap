@@ -1,0 +1,476 @@
+<div class="container-fluid">
+  <div class="shadow mt-5">
+
+    <!-- container-nav -->
+    <div class="justify-content-center">
+      <ul
+        class="nav nav-pills justify-content-center mb-3 custom-tabs"
+        id="pills-tab"
+        role="tablist"
+        >
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active bg-transparent text-muted"
+            id="pills-purchases-tab"
+            data-toggle="pill"
+            href="#pills-purchases"
+            role="tab"
+            aria-controls="pills-purchases"
+            aria-selected="true"
+            style="font-weight: 700; font-size: 18px;"
+            >Purchases</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link bg-transparent text-muted"
+            id="pills-favorites-tab"
+            data-toggle="pill"
+            href="#pills-favorites"
+            role="tab"
+            aria-controls="pills-favorites"
+            aria-selected="false"
+            style="font-weight: 700; font-size: 18px;"
+            >Favorites</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link bg-transparent text-muted"
+            id="pills-alerts-tab"
+            data-toggle="pill"
+            href="#pills-alerts"
+            role="tab"
+            aria-controls="pills-alerts"
+            aria-selected="false"
+            style="font-weight: 700; font-size: 18px;"
+            >Alerts</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link bg-transparent text-muted"
+            id="pills-settings-tab"
+            data-toggle="pill"
+            href="#pills-settings"
+            role="tab"
+            aria-controls="pills-settings"
+            aria-selected="false"
+            style="font-weight: 700; font-size: 18px;"
+            >Settings</a
+          >
+        </li>
+      </ul>
+    </div>
+    <!-- fin-container-nav -->
+
+    <div class="tab-content" id="pills-tabContent">
+      
+      <div
+          class="tab-pane fade show active mx-lg-5"
+          id="pills-purchases"
+          role="tabpanel"
+          aria-labelledby="pills-purchases-tab"
+        >
+      
+        <div class="ml-3" style="margin-top: 2rem;">
+          <h3 style="font-weight: 400;" >Auction Purchases</h3> 
+        </div>
+        
+          <div class="row text-center">
+            <div class="card-body text-center mt-2">
+              <div class="col-lg-4 col-md-5 col-sm-6 d-flex align-items-center">
+              <h4 class="d-none d-sm-block" style="font-weight: 400;">Item</h4> 
+            </div>
+          </div>
+
+            <div class="col-lg-8 col-md-7 col-sm-6">
+              <div class="card-body mt-2 d-none d-sm-block">
+                <div class="row justify-content-around mr-1">
+                  <span class="d-none d-sm-block">Delivery</span>
+                  <span class="d-none d-sm-block">Tax</span>
+                  <span class="d-none d-sm-block">Order</span>
+                  <span class="d-none d-sm-block">Price</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        ${ require('./product-card-purchases.html') }
+        ${ require('./product-card-purchases.html') }
+        ${ require('./product-card-purchases.html') }
+        ${ require('./product-card-purchases.html') }
+        ${ require('./product-card-purchases.html') }
+
+
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center custom-page-nav">
+            <li class="page-item">
+              <a class="page-link" href="#">
+              <img src="../../assets/images/icons/chevron-left.svg" class="align-self-center">
+                <span class="hide-mobile" style="font-weight: 500; font-size: 14px;">
+                  Previous
+                </span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link active" href="#" style="font-size: 14px; font-weight: 500;">1</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="font-size: 14px; font-weight: 500;">2</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="font-size: 14px; font-weight: 500;">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="font-size: 14px; font-weight: 500;">4</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <span class="hide-mobile" style="font-weight: 500; font-size: 14px;">
+                  Next
+                </span>
+              <img src="../../assets/images/icons/chevron-right.svg" class="align-self-center">
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div
+          class="tab-pane fade mx-lg-5 "
+          id="pills-favorites"
+          role="tabpanel"
+          aria-labelledby="pills-favorites-tab"
+        >
+          <div>
+            <h3 class="title my-4 ml-4 ml-lg-5 ml-md-4 ml-sm-4" style="font-weight: 400; font-size: 24px;">
+              Favorites On Auction
+            </h3>
+          </div>
+
+          <div class="row mx-2 mx-lg-4">
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+          </div>
+
+          <div class="text-center">
+            <button
+              type="button"
+              class="btn btn-outline-danger text-capitalize my-5"
+              style="font-weight: 700; font-size: 14px; border: 2px solid #ED412C;"
+            >
+              Load More
+            </button>
+          </div>
+
+          <div class="">
+            <h3 class="title my-4 ml-4 ml-lg-5 ml-md-4 ml-sm-4" style="font-weight: 400; font-size: 24px;">Sold Favorites</h3>
+          </div>
+
+          <div class="row mx-2 mx-lg-4">
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-6 mb-4">
+              ${ require('./product-card-withoutcol.html') }
+            </div>
+          </div>
+      </div>
+
+      <div 
+        class="tab-pane fade" 
+        id="pills-alerts" 
+        role="tabpanel" 
+        aria-labelledby="pills-alerts-tab">
+
+        <div class="container">
+          <div class="row justify-content-between mx-1 mx-md-5 my-5"> 
+            <h3 style="font-weight: 400;">Saved searches</h3>
+            <button type="button" class="btn btn-danger" style="font-size: 14px; font-weight: 700;">Create Alert</button>
+          </div>
+
+            <div class="row">
+
+
+              <div class="col-12 col-lg-6 col-md-12 d-flex justify-content-center">
+                <div class="card mb-5" style="width: 580px; height: 300px; border-radius: 16px;">
+                  <div class="card-body mx-2 my-2">
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500; line-height: 26px;">Type:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1; line-height: 22px">beds / beds frame</h5>
+                      </div>
+                      <div>
+                        <h4 style="font-weight: 500;">Styles:</h4>
+                        <span class="text-muted">---</span>
+                      </div>
+                      <div class="row mr-1">
+                        <div>
+                          <img class="mr-1" src="../../assets/images/icons/pencil.svg">
+                        </div>
+                        <div>
+                          <img src="../../assets/images/icons/garbage.svg">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500;">Keywords:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">Pink</h5>
+                      </div>
+                      <div>
+                        <span></span>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-3">
+                      <div class="row ml-1">
+                        <img class="mr-1" src="../../assets/images/icons/gps.svg">
+                        <h4 style="font-weight: 500; line-height: 26px">San Diego</h4>
+                      </div>
+                      <div class="row mr-1">
+                        <span class="text-muted mr-1" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">email off</span>
+                        <img class="ml-1" src="../../assets/images/icons/off.svg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- segunda columna -->
+
+              <div class="col-12 col-lg-6 col-md-12 d-flex justify-content-center">
+                <div class="card mb-5" style="width: 580px; height: 300px; border-radius: 16px;">
+                  <div class="card-body mx-2 my-2">
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500; line-height: 26px;">Type:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1; line-height: 22px">beds / beds frame</h5>
+                      </div>
+                      <div>
+                        <h4 style="font-weight: 500;">Styles:</h4>
+                        <span class="text-muted">---</span>
+                      </div>
+                        <div class="row mr-1">
+                          <div>
+                            <img class="mr-1" src="../../assets/images/icons/pencil.svg">
+                          </div>
+                          <div>
+                            <img src="../../assets/images/icons/garbage.svg">
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500;">Keywords:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">Pink</h5>
+                      </div>
+                      <div>
+                        <span></span>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-3">
+                      <div class="row ml-1">
+                        <img class="mr-1" src="../../assets/images/icons/gps.svg">
+                        <h4 style="font-weight: 500; line-height: 26px">San Diego</h4>
+                      </div>
+                      <div class="row mr-1">
+                        <span class="text-muted mr-1" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">email off</span>
+                        <img class="ml-1" src="../../assets/images/icons/off.svg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- columna3 -->
+
+                <div class="col-12 col-lg-6 d-flex justify-content-center">
+                <div class="card mb-5" style="width: 580px; height: 300px; border-radius: 16px;">
+                  <div class="card-body mx-2 my-2">
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500; line-height: 26px;">Type:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1; line-height: 22px">beds / beds frame</h5>
+                      </div>
+                      <div>
+                        <h4 style="font-weight: 500;">Styles:</h4>
+                        <span class="text-muted">---</span>
+                      </div>
+                      <div class="row mr-1">
+                        <div>
+                          <img class="mr-1" src="../../assets/images/icons/pencil.svg">
+                        </div>
+                        <div>
+                          <img src="../../assets/images/icons/garbage.svg">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500;">Keywords:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">Pink</h5>
+                      </div>
+                      <div>
+                        <span></span>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-3">
+                      <div class="row ml-1">
+                        <img class="mr-1" src="../../assets/images/icons/gps.svg">
+                        <h4 style="font-weight: 500; line-height: 26px">San Diego</h4>
+                      </div>
+                      <div class="row mr-1">
+                        <span class="text-muted mr-1" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">email off</span>
+                        <img class="ml-1" src="../../assets/images/icons/off.svg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 d-flex justify-content-center">
+                <div class="card mb-5" style="width: 580px; height: 300px; border-radius: 16px;">
+                  <div class="card-body mx-2 my-2">
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500; line-height: 26px;">Type:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1; line-height: 22px">beds / beds frame</h5>
+                      </div>
+                      <div>
+                        <h4 style="font-weight: 500;">Styles:</h4>
+                        <span class="text-muted">---</span>
+                      </div>
+                        <div class="row mr-1">
+                          <div>
+                            <img class="mr-1" src="../../assets/images/icons/pencil.svg">
+                          </div>
+                          <div>
+                            <img src="../../assets/images/icons/garbage.svg">
+                          </div>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-2" style="height: 78px;">
+                      <div>
+                        <h4 style="font-weight: 500;">Keywords:</h4>
+                        <h5 class="text-muted" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">Pink</h5>
+                      </div>
+                      <div>
+                        <span></span>
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-between mt-3">
+                      <div class="row ml-1">
+                        <img class="mr-1" src="../../assets/images/icons/gps.svg">
+                        <h4 style="font-weight: 500; line-height: 26px">San Diego</h4>
+                      </div>
+                      <div class="row mr-1">
+                        <span class="text-muted mr-1" style="font-weight: 500; font-size: 16px; color: #A1A1A1;">email off</span>
+                        <img class="ml-1" src="../../assets/images/icons/off.svg">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+      <div 
+          class="tab-pane fade mx-5" 
+          id="pills-settings" 
+          role="tabpanel" 
+          aria-labelledby="pills-settings-tab">
+              
+            <!-- row1 -->
+              <div class="form-row mt-5">
+                <div class="form-group col-lg-6">
+                  <label for="inputEmail4">User Name</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Santiago" readonly>
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="inputPassword4">New Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="*******" readonly>
+                </div>
+              </div>
+
+              <!-- row2 -->
+              <div class="form-row">
+                <div class="form-group col-lg-6">
+                  <label for="inputEmail4">Email Adress</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="example@email.com" readonly>
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="inputPassword4">Confirm Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="*******" readonly>
+                </div>
+              </div>
+
+              <!-- row3 -->
+              <div class="form-row mb-5">
+                <div class="form-group col-lg-6">
+                  <label for="inputEmail4">Phone Number</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="+542984897074" readonly>
+                </div>
+                <div class="form-group col-lg-6">
+                  <label for="inputPassword4">Sellers Permit</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Sellers Permit" readonly>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="card my-5 col-lg-6">
+                  <div class="card-body">
+                    <h3 style="font-weight: 700; line-height: 36px; margin-bottom: 32px;">Payment Methods</h3>
+                    <h4 class="text-muted font-weight-light">
+                      We do NOT store your credit card number or security code in
+                      our system. We will automatically charge your card on file
+                      for any winnings after the auction is over.
+                    </h4>
+                      <br />
+                      <br />
+                    <h4 class="text-muted font-weight-light">No cards saved.</h4>
+                  </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-end">
+                    <button type="button" class="btn btn-danger mb-5 mt-5 ml-auto" style="display: inherit; font-weight: 700;">Save Changes</button>
+                </div>
+              </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+

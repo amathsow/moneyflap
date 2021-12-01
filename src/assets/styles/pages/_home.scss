@@ -1,0 +1,94 @@
+// -----------------------------------------------------------------------------
+// Home page
+// -----------------------------------------------------------------------------
+.img-feature {
+    width: 73px;
+    height: 73px;
+    border-radius: 4px;
+}
+
+.all-feature {
+    filter: opacity(0.3);
+}
+.price-feature {
+    position: absolute;
+    top: 50%;
+    transform: translateX(35%) translateY(-50%);
+}
+
+.color-black-text {
+color: #000;
+}
+
+.border-feature {
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+.feature-div {
+    position: relative;
+}
+
+.bid-state-winning {
+    width: 100%;
+    text-align: center;
+    background: #B0F2C2;
+    opacity: .6;
+    position: absolute;
+    height: 24px;
+    img {
+        display: inline-block;
+        height: 20px !important;
+        width: 20px !important;
+    }
+    h5 {
+        display: inline-block !important;
+        margin-left: 5px;
+        font-family: 'Inter';
+        font-weight: 600;
+        color: #000;
+    }
+}
+.bid-state-winner {
+    width: 100%;
+    text-align: center;
+    background: #FFF59F;
+    opacity: .6;
+    position: absolute;
+    height: 24px;
+    img {
+        display: inline-block;
+        height: 20px !important;
+        width: 20px !important;
+    }
+    h5 {
+        display: inline-block !important;
+        margin-left: 5px;
+        font-family: 'Inter';
+        font-weight: 600;
+        color: #000;
+    }
+
+}
+.bid-state-outbid {
+    width: 100%;
+    text-align: center;
+    background: #ED2E44;
+    opacity: .6;
+    position: absolute;
+    height: 24px;
+    img {
+        display: inline-block;
+        height: 20px !important;
+        width: 20px !important;
+    }
+    h5 {
+        display: inline-block !important;
+        margin-left: 5px;
+        font-family: 'Inter';
+        font-weight: 600;
+        color: #000;
+    }
+
+}
+
