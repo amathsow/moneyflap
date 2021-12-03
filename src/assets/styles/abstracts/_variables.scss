@@ -4,35 +4,33 @@
 
 // Colors
 //
-$indigo: #5800e8;
-$purple: #6900c7;
-$orange: #f76400;
-$yellow: #f4a100;
-$green: #00ac69;
-$teal: #00ba94;
-$cyan: #00cfd5;
-$pink: #e30059;
-$red: #e81500;
-$white: #ffffff;
+$blue: material-color('blue', '500');
+$indigo: material-color('deep-purple', 'a400');
+$purple: material-color('purple', 'a400');
+$pink: material-color('pink', 'a400');
+$red: material-color('red', 'a400');
+$orange: material-color('orange', 'a400');
+$yellow: material-color('yellow', 'a400');
+$green: material-color('green', 'a400');
+$teal: material-color('teal', 'a400');
+$cyan: material-color('cyan', 'a400');
+$gray: material-color('grey', '600');
+$gray-dark: material-color('grey', '800');
 
-$primary: #0061f2 !default;
-$secondary: $purple !default;
+$primary: material-color('orange', 'a200') !default;
+$secondary: material-color('blue', 'a400') !default;
 $success: $green !default;
-$danger: $red !default;
-$warning: $yellow !default;
 $info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
 $light: material-color('grey', '50') !default;
-$dark: material-color('grey', '800') !default;
+$dark: material-color('grey', '900') !default;
 
-// Body
-//
-$body-bg: $light;
-$body-color: material-color('blue-grey', '900');
-
+$text-color: material-color('grey', '800');
+$text-color-contrast: material-color('grey', '50');
 
 // Typography
 //
-
 $font-family-sans-serif: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 $font-family-base: $font-family-sans-serif;
 
@@ -50,9 +48,3 @@ $h2-font-size: $font-size-base * 2;
 $h3-font-size: $font-size-base * 1.75;
 
 $headings-font-weight: $font-weight-bolder;
-
-
-// Header
-//
-
-$header-bg: $body-bg;
