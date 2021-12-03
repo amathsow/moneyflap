@@ -24,3 +24,87 @@ body {
     }
   }
 }
+
+.navbar {
+  font-family: 'Sofia Pro', sans-serif;
+  color: #E2E8F0;
+
+  .navbar a {
+  color: #E2E8F0;
+  text-decoration: none;
+  }
+
+}
+
+.main{
+  font-family: 'Sofia Pro', sans-serif;
+  color: #E2E8F0;
+  h1{
+    font-size: 70px;
+  }
+  label{
+    font-size: 24px;
+  }
+}
+
+.good-life{
+  p{
+    font-size: 44px;
+  }
+  h3{
+    font-size: 46px;
+    color: #00CEC2;
+  }
+}
+
+.transfer{
+  h3{
+    font-size: 46px;
+    color: #00CEC2;
+  }
+}
+
+
+.airtime{
+  h3{
+    font-size: 46px;
+    color: #00CEC2;
+  }
+}
+
+.bill {
+  background-image: url(../../images/bills-background.svg);
+  background-repeat: no-repeat; 
+  width: 100%; 
+  background-size: cover; 
+  padding-top: 26rem;
+  padding-bottom: 20rem;
+
+  h3 { 
+    font-size: 46px;
+    color: #00CEC2;
+  }
+
+}
+
+.expenses {
+  background-image: url(../../images/bills-background.svg);
+  background-repeat: no-repeat; 
+  width: 100%; 
+  background-size: cover; 
+  padding-top: 15rem;
+  padding-bottom: 3rem;
+
+  h3 {
+    font-size: 46px;
+    color: #00CEC2;
+  }
+
+}
+
+.making-transfer {
+  background-image: url(../../images/making-transfer.svg);
+  background-repeat: no-repeat; 
+  width: 100%; 
+  background-size: cover; 
+}
