@@ -29,8 +29,7 @@
     "jquery": "^3.5.1",
     "normalize-scss": "^7.0.1",
     "popper.js": "^1.16.1",
-    "sass-material-colors": "^0.0.5",
-    "simplelightbox": "^2.7.0"
+    "sass-material-colors": "^0.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",

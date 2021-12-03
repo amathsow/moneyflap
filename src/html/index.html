@@ -2,331 +2,36 @@
 <html lang="">
 <head>
   <meta charset="utf-8">
-  <title>MoneyFlap</title>
+  <title>Frontend Starter</title>
   <meta name="description" content="">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    @import url('http://fonts.cdnfonts.com/css/sofia-pro');
-    </style>
 
+  ${ require('./partials/head.html') }
 
 </head>
-<body class="" style="background-color: #092348;">
+<body>
 
-  <header class="px-5">
-    <nav class="navbar navbar-light navbar px-0">
-      <div class="container-fluid py-5 d-flex justify-content-between">
+${ require('./partials/browserupgrade.html') }
 
-        <div>
-          <img src="../assets/images/logomoneyflap.svg" alt="" style="cursor: pointer;">
-        </div>
+<div class="d-flex flex-column h-100">
 
-        <div class="d-flex" style="gap: 2rem;">
-          <a href="" style="align-self: center;">Features</a>
-          <a href="" style="align-self: center;">FAQ</a> 
-          <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize;" type="button">Sign Up</button>
-          <button class="btn btn-primary" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize;" type="button" type="submit">Sign In</button>
-        </div>
-      </div>
-    </nav>
-  </header>
+  ${ require('./partials/header.html') }
 
-  <main class="py-5 main">
-    <div class="container-fluid">
-      <div class="px-5 d-md-flex">
-        <div class="col-md-6">
-          <div>
-            <h1>Simple,</h1>
-            <h1 style="color: #00CEC2;">Transparent,</h1>
-            <h1>Modern…</h1>
-          </h1>
-          </div>
-          <div class="py-3">
-          <label for="">
-            Open a multi-currency account in 3 <br>
-            minutes for free, get your contactless <br>
-            Visa debit card in 2 days for free.
-          </label>
-          </div>
-
-          <div class="d-flex" style="gap: 1rem;">
-            <a href=""><img src="../assets/images/apple-button.svg" alt=""></a>
-            <a href=""><img src="../assets/images/android-button.svg" alt=""></a>
-          </div>
-
-        </div>
-        <div class="col-md-6">
-          <img class="img-fluid" src="../assets/images/phone.svg" alt="">
-        </div>
+  <main class="d-flex h-100 align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <section class="col-7">
+          <h1>Let's start!</h1>
+          <p class="lead">
+            “The secret of getting ahead is getting started.” – Mark Twain.
+          </p>
+          <small class="text-muted">Build your projects like spark</small>
+        </section>
       </div>
     </div>
-
-    <div style="background-image: url(/images/cards.svg); background-repeat: no-repeat; width: 100%; background-size: cover; padding-top: 16rem;">
-      <!-- <img class="img-fluid" style="width: 100%;" src="../assets/images/cards.svg" alt=""> -->
-
-      <div class="" style="padding-top: 15rem; padding-bottom: 31rem;">
-        <div class="d-flex flex-column">
-
-          
-          <div class="col-6 pl-5">
-            <h2 style="font-size: 52px;">Get your</h2> 
-            <h2 style="font-size: 52px;">Pre-registration now!</h2>
-            <div class="py-5">
-              <input type="text" placeholder="Your Phone Number" class="form-control" style="border-color: white; width: 500px; height: 70px;" />
-            </div>
-          </div>
-
-          <div class="col-6 pl-5" style="padding-bottom: 10rem;">
-            <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize;" type="button">Get Early Access</button>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-      <div class="d-flex justify-content-center">
-        <img src="../assets/images/good-life.svg" alt="">
-      </div>
-      <div class="d-flex flex-column align-items-center good-life">
-        <p class="text-center py-5">With MoneyFlap, you Flap Your Money as you go for Free. <br>
-          All you need is your mobile phone and start enjoying the <br>
-          Bank of Free.
-        </p>
-        <h3> What a good life!</h3>
-      </div>
-
-      <div style="background-image: url(/images/customizable-card.svg); background-repeat: no-repeat; width: 100%; background-size: cover; padding-top: 16rem;" >
-
-        <div class="d-flex justify-content-center align-items-center" style="padding-top: 10rem;">
-          <div class="d-flex flex-column">
-            <div class="text-center py-5">
-              <h2 style="color: #0F1A2A;">Customizable Card</h2>
-              <h3 style="color: #0F1A2A;">Choose the card that best suits your style!</h3>
-            </div>
-            <div class="text-center">
-              <img src="../assets/images/vertical-card.svg" alt="">
-            </div>
-            <div class="d-flex justify-content-between pb-5">
-              <img src="../assets/images/card1.svg" alt="">
-              <img src="../assets/images/card2.svg" alt="">
-              <img src="../assets/images/card3.svg" alt="">
-              <img src="../assets/images/card4.svg" alt="">
-            </div>
-            <div class="text-center" style="padding-bottom: 10rem;">
-              <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize;" type="button">Get your Card</button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="transfer" style="padding-top: 12rem; padding-bottom: 12rem;">
-        <div class="py-5 text-center">
-          <h3>Transfer Money</h3>
-          <h3 style="color: white;">Instantly, Everywhere</h3>
-        </div>
-        <div class="d-flex px-5 py-5">
-          <div class="col-md-4">
-            <div>
-              <img src="../assets/images/transfer1.svg" alt="">
-            </div>
-            <div class="py-4">
-              <p>Send, request, or receive any <br>
-                amount of money to other <br>
-                MoneyFlap accounts instantly, <br>
-                without all the fuss, and for free - <br>
-                all across the BCEAO region.</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div>
-              <img src="../assets/images/transfer2.svg" alt="">
-            </div>
-            <div class="py-4">
-              <p>With a personal IBAN Account Number, <br>
-                send and receive money to any bank <br>
-                around the world, all free and unlimited - <br>
-                share your account details with your <br>
-                employer and receive your salary directly <br>
-                in your MoneyFlap Account every month. </p>
-            </div>
-
-          </div>
-          <div class="col-md-4">
-            <div>
-              <img src="../assets/images/transfer3.svg" alt="">
-            </div>
-            <div class="py-4">
-              <p>Set up fast money transfers to non- <br>
-                MoneyFlap accounts locally and to all <br>
-                the West African countries for 0.9% fee <br>
-                and excellent exchange rates much <br>
-                less than sending with existing banks <br>
-                and companies.             
-              </p>
-            </div>
-            
-          </div>
-        </div>
-
-        <div class="d-flex justify-content-center" style="gap: 1rem;">
-          <a href=""><img src="../assets/images/apple-button.svg" alt=""></a>
-          <a href=""><img src="../assets/images/android-button.svg" alt=""></a>
-        </div>
-
-      </div>
-
-      <div class="bill d-flex align-items-center px-5" style="background-image: radial-gradient(ellipse farthest-corner at 45px 30px , #fff 50%, rgba(0, 255, 0, 0) 0%, #00ff00 50%);"  >
-
-        <div class="col-md-6">
-          <div>
-            <h3>
-              Pay Utility 
-            </h3>
-            <h3 style="color: white;">
-              Bills With Ease
-            </h3>
-          </div>
-
-
-          <div class="py-5">
-            <p>
-              Say No to standing in queues to pay your utility bills.
-            </p>
-            <p class="py-3">
-              MoneyFlap is the easiest and fastest way to pay for your utility,<br>
-              shopping, flight tickets, hotels, and phone bills for free and <br>
-              schedule your recurring payments such as TV, rent, vacation…. <br>
-              Without commission, you can pay with Direct Debit yours or <br>
-              your children’s school fees without moving to the institution. 
-            </p>
-            <p class="font-weight-bold">
-              You don’t need anymore to worry or borrow money <br>
-              to pay your bills, you can always split them between <br>
-              your friends or family. 
-            </p>            
-          </div>
-
-        </div>
-        <div class="col-md-6 text-center">
-          <div>
-            <img src="../assets/images/bill1.svg" alt="">
-          </div>
-          <div class="d-flex justify-content-center py-4" style="gap: 4%;">
-            <div>
-              <img src="../assets/images/bill2.svg" alt="">
-            </div>
-            <div>
-              <img src="../assets/images/bill3.svg" alt="">
-            </div>
-          </div>
-          <div>
-            <img src="../assets/images/bill4.svg" alt="">
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="airtime py-5 text-center">
-
-        <div>
-          <img src="../assets/images/airtime.svg" alt="">
-        </div>
-
-        <div class="py-5">
-          <h3>
-            Buy Airtime and Top Ups
-          </h3>
-          <p class="py-3">
-            MoneyFlap is the easiest and fastest way to pay for your utility,<br>
-            shopping, flight tickets, hotels, and phone bills for free and <br>
-            schedule your recurring payments such as TV, rent, vacation…. <br>
-            Without commission, you can pay with Direct Debit yours or <br>
-            your children’s school fees without moving to the institution. 
-          </p>
-        </div>
-
-        <div class="d-flex justify-content-center" style="gap: 1rem;">
-          <a href=""><img src="../assets/images/apple-button.svg" alt=""></a>
-          <a href=""><img src="../assets/images/android-button.svg" alt=""></a>
-        </div>
-
-      </div>
-
-      <div class="expenses py-5">
-
-        <div class="py-5 text-center">
-          <h3>
-            Track your Expenses 
-          </h3>
-          <p class="py-3">
-            Do you want to know where all your money goes?
-          </p>
-        </div>
-
-        <div class="d-flex">
-          <div class="col-md-6">
-            <img src="../assets/images/phone-expenses.svg" alt="">
-          </div>
-          <div class="col-md-6">
-            <div class="d-flex py-3">
-              <div class="col-md-6">
-                <img src="../assets/images/expenses1.svg" alt="">
-                <p class="py-3">Save money aside <br> 
-                  with pots and separate <br>
-                  it from your current <br>
-                  balance. </p>
-              </div>
-              <div class="col-md-6">
-                <img src="../assets/images/expenses2.svg" alt="">
-                <p class="py-3">Set your goals by giving <br>
-                  yourself a daily, weekly, or <br>
-                  monthly budget to ensure <br>
-                  you do not go over your <br>
-                  limit.</p>
-              </div>
-            </div>
-            <div class="d-flex py-3">
-              <div class="col-md-6">
-                <img src="../assets/images/expenses3.svg" alt="">
-                <p class="py-3">Get an exact insight on <br>
-                  where, when, and how <br>
-                  much you have spent your <br>
-                  money through our simple <br>
-                  budgeting tools and <br>
-                  expense tracker.</p>
-              </div>
-              <div class="col-md-6">
-                <img src="../assets/images/expenses4.svg" alt="">
-                <p class="py-3">You can save for your children’s <br>
-                  education, an event, a special trip, <br>
-                  leasing or buying cars... <br>
-                  Download a well designed and <br>
-                  structured bank statement right <br>
-                  from the app in PDF or Excel <br>
-                  Format. Forget about lengthy and <br>
-                  wordy bank statements. 
-                  </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-
-
-      <div>
-      </div>
-    
   </main>
 
-  <!-- ${ require('./partials/footer.html') } -->
+  ${ require('./partials/footer.html') }
 
-
+</div>
 </body>
 </html>
