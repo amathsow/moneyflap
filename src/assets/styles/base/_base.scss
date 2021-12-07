@@ -26,106 +26,101 @@ body {
 }
 
 .navbar {
-  font-family: 'Sofia Pro', sans-serif;
-  color: #E2E8F0;
+  font-family: "Sofia Pro", sans-serif;
+  color: #e2e8f0;
 
   .navbar a {
-  color: #E2E8F0;
-  text-decoration: none;
+    color: #e2e8f0;
+    text-decoration: none;
   }
 
-  .navbar button{
+  .navbar button {
     width: 161px;
   }
-
 }
 
-.main{
-  font-family: 'Sofia Pro', sans-serif;
-  color: #E2E8F0;
-  h1{
+.main {
+  font-family: "Sofia Pro", sans-serif;
+  color: #e2e8f0;
+  h1 {
     font-size: 70px;
   }
-  label{
+  label {
     font-size: 24px;
   }
 }
 
-
-.good-life{
-  p{
+.good-life {
+  p {
     font-size: 44px;
   }
-  h3{
+  h3 {
     font-size: 46px;
-    color: #00CEC2;
+    color: #00cec2;
   }
 }
 
-.transfer{
-  h3{
+.transfer {
+  h3 {
     font-size: 46px;
-    color: #00CEC2;
+    color: #00cec2;
   }
 }
 
-
-.airtime{
-  h3{
+.airtime {
+  h3 {
     font-size: 46px;
-    color: #00CEC2;
+    color: #00cec2;
   }
 }
 
 .bill {
   background-image: url(../../images/bills-background.svg);
-  background-repeat: no-repeat; 
-  width: 100%; 
-  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
   padding-top: 26rem;
   padding-bottom: 20rem;
 
-  h3 { 
+  h3 {
     font-size: 46px;
-    color: #00CEC2;
+    color: #00cec2;
   }
-
 }
 
 .expenses {
   background-image: url(../../images/bills-background.svg);
-  background-repeat: no-repeat; 
-  width: 100%; 
-  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
   padding-top: 15rem;
   padding-bottom: 3rem;
 
   h3 {
     font-size: 46px;
-    color: #00CEC2;
+    color: #00cec2;
   }
-
 }
 
 .making-transfer {
-  background-repeat: no-repeat; 
-  width: 100%; 
-  background-size: cover; 
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
   padding-top: 16rem;
 }
 
-.making-transfer h2{
+.making-transfer h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 48px;
 }
 
-.making-transfer p{
+.making-transfer p {
   font-size: 24px;
   font-weight: 400;
 }
 
-.footer h4{
+.footer h4 {
   text-transform: capitalize;
   text-decoration: none;
   font-size: 20px;
@@ -133,13 +128,12 @@ body {
   font-weight: 400;
 }
 
-.footer h3{
-  color: #00CEC2;
+.footer h3 {
+  color: #00cec2;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 900;
-
-}  
+}
 
 // .footer a{
 //     text-transform: capitalize;
@@ -149,52 +143,62 @@ body {
 //     text-decoration: none;
 //   }
 
-  .cards{
-    background-repeat: no-repeat; 
-    width: 100%; 
-    background-size: cover; 
-    padding-top: 16rem;
-  }
+.cards {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-top: 16rem;
+}
 
-  .cards p{
+//   .cards p{
+//     font-size: 18px;
+//   }
+
+//   @media screen and (max-width: 767px) {
+//     .cards p{
+//         font-size: 50px;
+//     }
+// }
+
+.cards p {
+  font-size: 50px;
+}
+@media screen and (min-width: 768px) {
+  .cards p {
     font-size: 18px;
   }
+}
 
-  .early-button{
-    background-color: #705BFF; 
-    border-color: #705BFF; 
-    text-transform: capitalize; 
-    color: white;
-    width: 315px;
-    height: 45px;
-  }
+.early-button {
+  background-color: #705bff;
+  border-color: #705bff;
+  text-transform: capitalize;
+  color: white;
+  width: 315px;
+  height: 45px;
+}
 
-  .customizable {
+.customizable {
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding-top: 16rem;
+}
 
-    background-repeat: no-repeat; 
-    width: 100%; 
-    background-size: cover; 
-    padding-top: 16rem;
-  }
+.input-footer {
+  width: 348px;
+  height: 48px;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
+}
 
-  .input-footer{
-    width: 348px;
-    height: 48px;
-    border-radius: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    background: rgba(255, 255, 255, 0.2);
-  }
-
-
-.container-boxes{
+.container-boxes {
   display: inline-block;
 }
 
-.boxes{
-  border-bottom: 1px solid #94A3B8;
-  border-left: 1px solid #94A3B8;
+.boxes {
+  border-bottom: 1px solid #94a3b8;
+  border-left: 1px solid #94a3b8;
   border-bottom-left-radius: 20px;
-
 }
-
-
