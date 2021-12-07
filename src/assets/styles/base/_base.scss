@@ -125,6 +125,14 @@ body {
   font-weight: 400;
 }
 
+.footer h4{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
 .footer h3{
   color: #00CEC2;
   text-transform: uppercase;
@@ -133,21 +141,13 @@ body {
 
 }  
 
-.footer a{
-    text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-.footer h4{
-  text-transform: capitalize;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  font-weight: 400;
-}
+// .footer a{
+//     text-transform: capitalize;
+//     color: white;
+//     font-size: 16px;
+//     font-weight: 500;
+//     text-decoration: none;
+//   }
 
   .cards{
     background-repeat: no-repeat; 
