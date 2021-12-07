@@ -34,6 +34,10 @@ body {
   text-decoration: none;
   }
 
+  .navbar button{
+    width: 161px;
+  }
+
 }
 
 .main{
@@ -46,6 +50,7 @@ body {
     font-size: 24px;
   }
 }
+
 
 .good-life{
   p{
@@ -103,8 +108,93 @@ body {
 }
 
 .making-transfer {
-  background-image: url(../../images/making-transfer.svg);
   background-repeat: no-repeat; 
   width: 100%; 
   background-size: cover; 
+  padding-top: 16rem;
 }
+
+.making-transfer h2{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.making-transfer p{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.footer h3{
+  color: #00CEC2;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+
+}  
+
+.footer a{
+    text-transform: capitalize;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+.footer h4{
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+
+  .cards{
+    background-repeat: no-repeat; 
+    width: 100%; 
+    background-size: cover; 
+    padding-top: 16rem;
+  }
+
+  .cards p{
+    font-size: 18px;
+  }
+
+  .early-button{
+    background-color: #705BFF; 
+    border-color: #705BFF; 
+    text-transform: capitalize; 
+    color: white;
+    width: 315px;
+    height: 45px;
+  }
+
+  .customizable {
+
+    background-repeat: no-repeat; 
+    width: 100%; 
+    background-size: cover; 
+    padding-top: 16rem;
+  }
+
+  .input-footer{
+    width: 348px;
+    height: 48px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+  }
+
+
+.container-boxes{
+  display: inline-block;
+}
+
+.boxes{
+  border-bottom: 1px solid #94A3B8;
+  border-left: 1px solid #94A3B8;
+  border-bottom-left-radius: 20px;
+
+}
+
+
