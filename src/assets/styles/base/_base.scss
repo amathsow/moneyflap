@@ -201,6 +201,15 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .get-card {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+
 
 // .footer a{
 //     text-transform: capitalize;
