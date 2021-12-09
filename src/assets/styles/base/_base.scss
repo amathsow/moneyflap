@@ -50,6 +50,22 @@ body {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .main h1 {
+    font-size: 45px;
+  }
+  .main label {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .icons img {
+    width: 100px;
+    height: 40px;
+  }
+}
+
 .good-life {
   p {
     font-size: 44px;
@@ -57,6 +73,15 @@ body {
   h3 {
     font-size: 46px;
     color: #00cec2;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .good-life p {
+    font-size: 32px;
+  }
+  .good-life h3 {
+    font-size: 34px;
   }
 }
 
@@ -120,6 +145,40 @@ body {
   font-weight: 400;
 }
 
+@media screen and (max-width: 500px) {
+  .making-buttons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .making-img {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .making-phone {
+    width: 250px;
+    height: 250px;
+    padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .making-phone-card {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-logo {
+    text-align: center;
+  }
+}
+
 .footer h4 {
   text-transform: capitalize;
   text-decoration: none;
@@ -135,6 +194,12 @@ body {
   font-weight: 900;
 }
 
+@media screen and (max-width: 767px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 // .footer a{
 //     text-transform: capitalize;
 //     color: white;
@@ -148,6 +213,10 @@ body {
   width: 100%;
   background-size: cover;
   padding-top: 16rem;
+}
+
+.each-card {
+  border-radius: 25px;
 }
 
 //   .cards p{
@@ -169,6 +238,27 @@ body {
   }
 }
 
+.cards h2 {
+  font-size: 52px;
+}
+
+@media screen and (max-width: 1000px) {
+  .cards h2 {
+    font-size: 38px;
+  }
+}
+
+.cards input {
+  width: 500px;
+  height: 70px;
+}
+@media screen and (max-width: 1000px) {
+  .cards input {
+    width: 280px;
+    height: 55px;
+  }
+}
+
 .early-button {
   background-color: #705bff;
   border-color: #705bff;
@@ -176,6 +266,13 @@ body {
   color: white;
   width: 315px;
   height: 45px;
+}
+
+@media screen and (max-width: 1000px) {
+  .early-button {
+    width: 230px;
+    height: 45px;
+  }
 }
 
 .customizable {
@@ -191,9 +288,7 @@ body {
   border-radius: 30px;
   border: 2px solid rgba(255, 255, 255, 0.3);
   background: rgba(255, 255, 255, 0.2);
-
 }
-
 
 .container-boxes {
   display: inline-block;
