@@ -39,6 +39,36 @@ body {
   }
 }
 
+.btn-secondary {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e2e8f0;
+}
+
+button.navbar-toggler-icon {
+  color: #e2e8f0;
+}
+
+.navbar-light .navbar-toggler {
+  color: #e2e8f0;
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-primary {
+    margin-top: 1rem;
+  }
+}
+
 .main {
   font-family: "Sofia Pro", sans-serif;
   color: #e2e8f0;
@@ -179,7 +209,6 @@ body {
   }
 }
 
-
 .footer h4 {
   text-transform: capitalize;
   text-decoration: none;
@@ -208,8 +237,22 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .get-card {
+    margin-top: 1rem;
+  }
 
+}
 
+@media screen and (max-width: 768px) {  
+  .get-card img{
+    margin-right: 1rem;
+  }
+}
+
+// .navbar-light .navbar-toggler-icon {
+//   background-image: url(../../images/icon-hamburguer.png);
+// }
 
 // .footer a{
 //     text-transform: capitalize;

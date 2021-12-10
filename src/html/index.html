@@ -11,32 +11,86 @@
         @import url('https://fonts.cdnfonts.com/css/sofia-pro');
     </style>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 
 </head>
 <body class="" style="background-color: #092348;">
   ${ require('./partials/browserupgrade.html') }
   <header class="px-5">
-    <nav class="navbar navbar-light navbar px-0">
+
+        <!-- prueba -->
+
+        <nav class="navbar navbar-expand-lg navbar-light py-5">
+            <div>
+              <img src="../assets/images/logomoneyflap.svg" alt="" style="cursor: pointer;">
+            </div>
+
+            <div class="dropdown px-5">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                English
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Spanish</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">German</a>
+              </div>
+            </div>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarText" style="gap: 3rem;">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link mx-lg-3" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">FAQ</a>
+              </li>
+            </ul>
+            <button class="btn btn-primary nav-link" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white; width: 161px; height: 46px;" type="button">Sign Up</button>
+            <button class="btn btn-primary nav-link" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize; color: white; width: 161px; height: 46px;" type="button" type="submit">Sign In</button>
+          </div>
+        </nav>
+
+        <!-- prueba -->
+
+
+    <!-- <nav class="navbar navbar-light navbar px-0">
       <div class="container-fluid py-5 d-flex justify-content-between">
-
-
 
         <div>
           <img src="../assets/images/logomoneyflap.svg" alt="" style="cursor: pointer;">
-
-
-
-
         </div>
 
-        <div class="d-flex navbar" style="gap: 4rem;">
-          <a href="" style="align-self: center;">Features</a>
-          <a href="" style="align-self: center;">FAQ</a> 
-          <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white;" type="button">Sign Up</button>
-          <button class="btn btn-primary" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize; color: white;" type="button" type="submit">Sign In</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse d-flex navbar" id="navbarNav" style="gap: 4rem;">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="" style="align-self: center;">Features</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="" style="align-self: center;">FAQ</a> 
+            </li>
+
+            <li class="nav-item">
+              <button class="btn btn-primary nav-link" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white;" type="button">Sign Up</button>
+            </li>
+
+            <li class="nav-item">
+              <button class="btn btn-primary nav-link" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize; color: white;" type="button" type="submit">Sign In</button>
+            </li>
+          </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
   </header>
 
   <main class="py-5 main">
@@ -113,25 +167,27 @@
               <h2 style="color: #0F1A2A;">Customizable Card</h2>
               <h3 style="color: #0F1A2A;">Choose the card that best suits your style!</h3>
             </div>
-            <div class="text-center">
-              <img src="../assets/images/vertical-card.svg" alt="">
+            <div class="text-center py-5">
+              <img src="../assets/images/vertical-card.svg" alt="" id="cardShowing">
             </div>
             <div class="d-md-flex justify-content-between pb-5 text-center">
               <div class="col-md-6 get-card">
-                <img src="../assets/images/card1.svg" alt="">
-                <img src="../assets/images/card2.svg" alt="">
+                <img class="Cards__img" src="../assets/images/card1.svg" alt="">
+                <img class="Cards__img" src="../assets/images/card2.svg" alt="">
               </div>
               <div class="col-md-6 get-card">
-                <img src="../assets/images/card3.svg" alt="">
-                <img src="../assets/images/card4.svg" alt="">
+                <img class="Cards__img" src="../assets/images/card33.svg" alt="">
+                <img class="Cards__img" src="../assets/images/card4.svg" alt="">
               </div>
             </div>
             <div class="text-center" style="padding-bottom: 10rem;">
-              <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white; width: 200px; height: 55px;" type="button">Get your Card</button>
+              <button class="btn btn-primary"
+                style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white; width: 200px; height: 55px;"
+                type="button">Get your Card</button>
             </div>
           </div>
         </div>
-
+  
       </div>
 
       <div class="transfer" style="padding-top: 12rem; padding-bottom: 12rem;">
