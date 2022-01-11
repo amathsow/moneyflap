@@ -17,91 +17,54 @@
 
 
 </head>
-<body class="" style="background-color: #092348;">
+<body class="bg-primary">
   ${ require('./partials/browserupgrade.html') }
   <header class="px-5">
+    <nav class="navbar navbar-expand-lg navbar-light py-5">
+      <div>
+        <img src="../assets/images/logomoneyflap.svg" alt="logo-money-flap" class="cursor-pointer">
+      </div>
 
-        <!-- prueba -->
-
-        <nav class="navbar navbar-expand-lg navbar-light py-5">
-            <div>
-              <img src="../assets/images/logomoneyflap.svg" alt="" style="cursor: pointer;">
-            </div>
-
-            <div class="dropdown px-5">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                English
-              </button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Spanish</a>
-                <a class="dropdown-item" href="#">French</a>
-                <a class="dropdown-item" href="#">German</a>
-              </div>
-            </div>
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarText" style="gap: 3rem;">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link mx-lg-3" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mx-lg-3" href="#">FAQ</a>
-              </li>
-            </ul>
-            <button class="btn btn-primary nav-link" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white; width: 161px; height: 46px;" type="button">Sign Up</button>
-            <button class="btn btn-primary nav-link" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize; color: white; width: 161px; height: 46px;" type="button" type="submit">Sign In</button>
-          </div>
-        </nav>
-
-        <!-- prueba -->
-
-
-    <!-- <nav class="navbar navbar-light navbar px-0">
-      <div class="container-fluid py-5 d-flex justify-content-between">
-
-        <div>
-          <img src="../assets/images/logomoneyflap.svg" alt="" style="cursor: pointer;">
-        </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <div class="dropdown px-5">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          English
         </button>
-
-        <div class="collapse navbar-collapse d-flex navbar" id="navbarNav" style="gap: 4rem;">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="" style="align-self: center;">Features</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="" style="align-self: center;">FAQ</a> 
-            </li>
-
-            <li class="nav-item">
-              <button class="btn btn-primary nav-link" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white;" type="button">Sign Up</button>
-            </li>
-
-            <li class="nav-item">
-              <button class="btn btn-primary nav-link" style="background: rgba(255, 255, 255, 0.1); border-color: #E2E8F0; text-transform: capitalize; color: white;" type="button" type="submit">Sign In</button>
-            </li>
-          </ul>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Spanish</a>
+          <a class="dropdown-item" href="#">French</a>
+          <a class="dropdown-item" href="#">German</a>
         </div>
       </div>
-    </nav> -->
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarText" style="gap: 3rem;">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link mx-lg-3" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3" href="#">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3" href="#">Careers</a>
+          </li>
+        </ul>
+        <button class="btn text-white px-3 py-2 btn-success nav-link" type="button">Get early access</button>
+      </div>
+    </nav>
   </header>
 
-  <main class="py-5 main">
-    <div class="container-fluid px-0">
-      <div class="d-md-flex px-5 ">
-        <div class="col-md-6">
-          <div>
+  <main class="pt-5 main">
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 offset-2">
+          <div class="mt-5">
             <h1>Simple,</h1>
-            <h1 style="color: #00CEC2;">Transparent,</h1>
+            <h1 class="text-secondary">Transparent,</h1>
             <h1>Modern…</h1>
-          </h1>
           </div>
           <div class="py-5">
           <label for="">
@@ -112,135 +75,159 @@
           </div>
 
           <div class="d-flex icons" style="gap: 1rem;">
-            <a href=""><img src="../assets/images/apple-button.svg" alt=""></a>
-            <a href=""><img src="../assets/images/android-button.svg" alt=""></a>
+            <a href=""><img src="../assets/images/apple-button.svg" alt="apple-button"></a>
+            <a href=""><img src="../assets/images/android-button.svg" alt="android-button"></a>
           </div>
 
         </div>
         <div class="col-md-6">
-          <img class="img-fluid" src="../assets/images/phone.svg" alt="">
+          <img class="img-fluid" src="../assets/images/phone.svg" alt="phone">
         </div>
       </div>
-    </div>
+    </section>
 
-
-    <div class="cards" style="background-image: url(/images/cards.png);">
-      <!-- <img class="img-fluid" style="width: 100%;" src="../assets/images/cards.svg" alt=""> -->
-
-      <div class="px-5" style="padding-top: 15rem; padding-bottom: 31rem;">
-        <div class="d-flex flex-column">
-
-          
-          <div class="col-6 pl-5">
-            <h2>Get your</h2> 
-            <h2>Pre-registration now!</h2>
-            <div class="py-5">
-              <input type="text" placeholder="Your Phone Number" class="form-control" style="border-color: white;" />
-            </div>
-          </div>
-
-          <div class="col-6 pl-5" style="padding-bottom: 10rem;">
-            <button class="btn early-button" type="button">Get Early Access</button>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-
-      <div class="d-flex justify-content-center">
-        <img src="../assets/images/good-life.svg" alt="">
-      </div>
-      <div class="d-flex flex-column align-items-center good-life px-5">
-        <p class="text-center py-5">With MoneyFlap, you Flap Your Money as you go for Free. <br class="d-sm-none d-xl-block">
-          All you need is your mobile phone and start enjoying the <br class="d-sm-none d-xl-block">
-          Bank of Free.
-        </p>
-        <h3> What a good life!</h3>
-      </div>
-
-      <div class="customizable" style="background-image: url(../images/cards.png);">
-
-        <div class="d-flex justify-content-center align-items-center" style="padding-top: 10rem;">
-          <div class="d-flex flex-column">
-            <div class="text-center py-5">
-              <h2 style="color: #0F1A2A;">Customizable Card</h2>
-              <h3 style="color: #0F1A2A;">Choose the card that best suits your style!</h3>
-            </div>
-            <div class="text-center py-5">
-              <img src="../assets/images/vertical-card.svg" alt="" id="cardShowing">
-            </div>
-            <div class="d-md-flex justify-content-between pb-5 text-center">
-              <div class="col-md-6 get-card">
-                <img class="Cards__img" src="../assets/images/card1.svg" alt="">
-                <img class="Cards__img" src="../assets/images/card2.svg" alt="">
-              </div>
-              <div class="col-md-6 get-card">
-                <img class="Cards__img" src="../assets/images/card33.svg" alt="">
-                <img class="Cards__img" src="../assets/images/card4.svg" alt="">
+    <section>
+      <div class="bg-cards" style="background-image: url(../images/bg-cards.svg)">
+        <!-- <img src="../assets/images/bg-cards.svg" alt="bg-cards" class="img-cards"> -->
+        <div class="container d-grid h-100">
+          <div class="row">
+            <div class="col-md-5 mt-5 d-grid align-items-center">
+              <div>
+                <h2 class="font-weight-bold">Get your <br/>pre-registration now!</h2>
+                <div class="my-4">
+                  <input type="text" placeholder="Your Phone Number" class="form-control form-control-lg py-4" style="border-color: white;" />
+                </div>
+                <button class="btn text-white px-5 py-2 btn-success nav-link" type="button">Get early access</button>
               </div>
             </div>
-            <div class="text-center" style="padding-bottom: 10rem;">
-              <button class="btn btn-primary"
-                style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; color: white; width: 200px; height: 55px;"
-                type="button">Get your Card</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5 pt-5">
+        <div class="d-flex justify-content-center">
+          <img src="../assets/images/good-life.svg" alt="">
+        </div>
+        <div class="d-flex flex-column align-items-center good-life px-5">
+          <p class="text-center py-5">With MoneyFlap, you Flap Your Money as you go for Free. <br class="d-sm-none d-xl-block">
+            All you need is your mobile phone and start enjoying the <br class="d-sm-none d-xl-block">
+            Bank of Free.
+          </p>
+          <h3> What a good life!</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-customize" style="background-image: url(../images/bg-customize.png)">
+        <!-- <img src="../assets/images/bg-customize.png" alt="bg-customize" class="img-customize"> -->
+        <div class="container d-grid h-100">
+          <div class="row align-items-center m-t-10vh">
+            <div class="col-md-6">
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column">
+                  <div class="text-center pb-5">
+                    <h2 class="text-white">Customizable Card</h2>
+                    <p class="text-white font-20">Choose the card that best suits your style!</p>
+                  </div>
+                  <div class="text-center pb-5">
+                    <img src="../assets/images/vertical-card.svg" alt="" id="cardShowing">
+                  </div>
+                  <div class="d-md-flex justify-content-between pb-5 text-center">
+                    <div class="col-md-6 get-card">
+                      <img class="Cards__img" src="../assets/images/card1.svg" alt="">
+                      <img class="Cards__img" src="../assets/images/card2.svg" alt="">
+                    </div>
+                    <div class="col-md-6 get-card">
+                      <img class="Cards__img" src="../assets/images/card33.svg" alt="">
+                      <img class="Cards__img" src="../assets/images/card4.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <ul>
+                  <li class="my-5">
+                    <p class="mb-0 fw-bold">A free Visa card, accepted worldwide.</p>
+                    <p>Pay at millions retail and online merchants worldwide and withdraw money from any ATM worldwide.</p>
+                  </li>
+                  <li class="my-5">
+                    <p>Earn 0.25% cashback on all your card spending.</p>
+                  </li>
+                  <li class="my-5">
+                    <p>Add your card to Google Pay and Apple Pay in seconds.</p>
+                  </li>
+                  <li class="my-5">
+                    <p>Enjoy virtual cards designed for your online life needs.</p>
+                  </li>
+                  <li class="my-5">
+                    <p class="mb-0 fw-bold">Pay and get paid by anyone quickly with QR codes.</p>
+                    <p>You do not always need to share your personal information to make a quick payment.</p>
+                  </li>
+                  <li class="my-5">
+                    <p>Customizable cards (Choose the card that best suits your style).</p>
+                  </li>
+                  <li class="my-5">
+                    <p class="mb-0 fw-bold">Sub-Saharan Africa’s first numberless bank card.</p>
+                    <p>Enjoy a simpler and healthier financial life with no card number, expiry date or CVV visible on  the card. We protect you from frauds and cybercriminals.</p>
+                  </li>
+                </ul>
+                <button class="btn btn-success text-white p-3">Get your card</button>
+              </div>
             </div>
           </div>
         </div>
-  
       </div>
+    </section>
 
-      <div class="transfer" style="padding-top: 12rem; padding-bottom: 12rem;">
+    <section>
+      <div class="container transfer mt-5 pt-5">
         <div class="py-5 text-center">
-          <h3>Transfer Money</h3>
-          <h3 style="color: white;">Instantly, Everywhere</h3>
+          <h3>Send Money Instantly, Anywhere </h3>
+          <h3 class="text-white">Receive Money from Anyone</h3>
         </div>
-        <div class="d-md-flex px-5 py-5">
-          <div class="d-grid col-md-4">
+        <div class="row px-5 py-5">
+          <div class="col-md-4">
             <div class="px-4">
               <img src="../assets/images/transfer1.svg" alt="">
             </div>
             <div class="pt-4">
               <div class="container-boxes">
-                <p class="boxes p-4">Send, request, or receive any <br class="d-none d-xl-block">
-                amount of money to other <br class="d-none d-xl-block">
-                MoneyFlap accounts instantly, <br class="d-none d-xl-block">
-                without all the fuss, and for free - <br class="d-none d-xl-block">
-                all across the BCEAO region. <br class="d-none d-xl-block">
-                <br>
-                <br class="d-xl-none d-sm-block">
+                <p class="boxes p-3 font-20">Send, request, or receive any amount of money to other MoneyFlap accounts instantly, without all the fuss, and for free - all across the BCEAO region.
                 </p>
               </div>
             </div>
           </div>
-
-          <div class="d-grid col-md-4">
+          <div class="col-md-4">
             <div class="px-4">
               <img src="../assets/images/transfer2.svg" alt="">
             </div>
             <div class="pt-4">
               <div class="container-boxes">
-                <p class="boxes p-4">With a personal IBAN Account Number, <br class="d-none d-xl-block">
-                  send and receive money to any bank <br class="d-none d-xl-block">
-                  around the world, all free and unlimited - <br class="d-none d-xl-block">
-                  share your account details with your <br class="d-none d-xl-block">
-                  employer and receive your salary directly <br class="d-none d-xl-block">
+                <p class="boxes p-3 font-20">With a personal IBAN Account Number,
+                  send and receive money to any bank
+                  around the world, all free and unlimited -
+                  share your account details with your
+                  employer and receive your salary directly
                   in your MoneyFlap Account every month. </p>
               </div>
             </div>
           </div>
-
-          <div class="d-grid col-md-4">
+          <div class="col-md-4">
             <div class="px-4">
               <img src="../assets/images/transfer3.svg" alt="">
             </div>
             <div class="pt-4">
               <div class="container-boxes">
-                <p class="boxes p-4">Set up fast money transfers to non- <br class="d-none d-xl-block">
-                  MoneyFlap accounts locally and to all <br class="d-none d-xl-block">
-                  the West African countries for 0.9% fee <br class="d-none d-xl-block">
-                  and excellent exchange rates much <br class="d-none d-xl-block">
-                  less than sending with existing banks <br class="d-none d-xl-block">
+                <p class="boxes p-3 font-20">Set up fast money transfers to non-
+                  MoneyFlap accounts locally and to all
+                  the West African countries for 0.9% fee
+                  and excellent exchange rates much
+                  less than sending with existing banks
                   and companies.             
                 </p>
               </div>
@@ -255,528 +242,376 @@
         </div>
 
       </div>
+    </section>
 
-      <div class="bill d-lg-flex align-items-center px-5">
-
-        <div class="col-lg-6 px-4">
-          <div>
-            <h3>
-              Pay Utility 
-            </h3>
-            <h3 style="color: white;">
-              Bills With Ease
-            </h3>
-          </div>
-
-
-          <div class="py-5">
-            <p>
-              Say No to standing in queues to pay your utility bills.
-            </p>
-            <p class="py-3">
-              MoneyFlap is the easiest and fastest way to pay for your utility,<br class="d-none d-xl-block">
-              shopping, flight tickets, hotels, and phone bills for free and <br class="d-none d-xl-block">
-              schedule your recurring payments such as TV, rent, vacation…. <br class="d-none d-xl-block">
-              Without commission, you can pay with Direct Debit yours or <br class="d-none d-xl-block">
-              your children’s school fees without moving to the institution. 
-            </p>
-            <p class="font-weight-bold">
-              You don’t need anymore to worry or borrow money <br class="d-none d-xl-block">
-              to pay your bills, you can always split them between <br class="d-none d-xl-block">
-              your friends or family. 
-            </p>            
-          </div>
-
-        </div>
-        <div class="col-lg-6 text-center">
-          <div>
-            <img class="img-fluid px-2" src="../assets/images/bill1.svg" alt="">
-          </div>
-          <div class="d-md-flex justify-content-center py-4">
-            <div>
-              <img class="img-fluid px-2 py-4" src="../assets/images/bill2.svg" alt="">
+    <section>
+      <div class="bg-customize" style="background-image: url(../images/bg-customize.png)">
+        <div class="container h-100 d-grid">
+          <div class="row align-items-center m-t-10vh">
+            <div class="col-md-6 px-4">
+              <div>
+                <h2 class="text-secondary">
+                  Pay Utility Bills
+                </h2>
+                <h2 class="text-white">
+                  With Ease
+                </h2>
+              </div>
+              <div class="py-5">
+                <p class="font-24">
+                  Say No to standing in queues to pay your utility bills.
+                </p>
+                <p class="py-3 font-24">
+                  MoneyFlap is the easiest and fastest way to pay for your utility,
+                  shopping, flight tickets, hotels, and phone bills for free and
+                  schedule your recurring payments such as TV, rent, vacation….
+                  Without commission, you can pay with Direct Debit yours or
+                  your children’s school fees without moving to the institution. 
+                </p>
+                <p class="fw-bold font-24">
+                  You don’t need anymore to worry or borrow money
+                  to pay your bills, you can always split them between
+                  your friends or family. 
+                </p>            
+              </div>
             </div>
-            <div>
-              <img class="img-fluid px-2 py-4" src="../assets/images/bill3.svg" alt="">
+            <div class="col-md-6 text-center">
+              <div>
+                <img src="../assets/images/pay-bills.svg" alt="pay-bills">
+              </div>
             </div>
           </div>
-          <div>
-            <img class="img-fluid px-2" src="../assets/images/bill4.svg" alt="">
-          </div>
         </div>
-
       </div>
+    </section>
 
-
-      <div class="airtime py-5 text-center">
-
+    <section>
+      <div class="container airtime py-5 text-center">
         <div>
           <img class="img-fluid" src="../assets/images/airtime.svg" alt="">
         </div>
-
         <div class="py-5">
           <h3>
             Buy Airtime and Top Ups
           </h3>
-          <p class="p-3">
-            MoneyFlap is the easiest and fastest way to pay for your utility,<br class="d-none d-xl-block">
-            shopping, flight tickets, hotels, and phone bills for free and <br class="d-none d-xl-block">
-            schedule your recurring payments such as TV, rent, vacation…. <br class="d-none d-xl-block">
-            Without commission, you can pay with Direct Debit yours or <br class="d-none d-xl-block">
+          <p class="p-3 font-20 text-center">
+            MoneyFlap is the easiest and fastest way to pay for your utility,
+            shopping, flight tickets, hotels, and phone bills for free and
+            schedule your recurring payments such as TV, rent, vacation….
+            Without commission, you can pay with Direct Debit yours or
             your children’s school fees without moving to the institution. 
           </p>
         </div>
-
         <div class="d-flex justify-content-center" style="gap: 1rem;">
           <a href=""><img src="../assets/images/apple-button.svg" alt=""></a>
           <a href=""><img src="../assets/images/android-button.svg" alt=""></a>
         </div>
-
       </div>
+    </section>
 
-      <div class="expenses">
-
-        <div class="py-5 text-center">
-          <h3>
-            Track your Expenses 
-          </h3>
-          <p class="py-3">
-            Do you want to know where all your money goes?
-          </p>
-        </div>
-
-        <div class="d-lg-flex px-5">
-          <div class="col-lg-6 text-center">
-            <img class="img-fluid text-center" src="../assets/images/phone-expenses.svg" alt="">
+    <section>
+      <div class="bg-customize" style="background-image: url(../images/bg-expenses.png)">
+        <div class="container expenses">
+          <div class="py-5 text-center">
+            <h2 class="text-secondary">
+              Get insights on your spending habits
+            </h2>
+            <p class="py-3 font-24">
+              Do you want to know where all your money goes?
+            </p>
           </div>
-          <div class="col-lg-6">
-            <div class="d-md-flex py-3">
-              <div class="col-lg-6 px-2">
-                <img src="../assets/images/expenses1.svg" alt="">
-                <p class="py-3">Save money aside <br class="d-sm-none d-md-block"> 
-                  with pots and separate <br class="d-sm-none d-md-block">
-                  it from your current <br class="d-sm-none d-md-block">
-                  balance. </p>
-              </div>
-              <div class="col-lg-6 px-2">
-                <img src="../assets/images/expenses2.svg" alt="">
-                <p class="py-3">Set your goals by giving <br class="d-sm-none d-md-block">
-                  yourself a daily, weekly, or <br class="d-sm-none d-md-block">
-                  monthly budget to ensure <br class="d-sm-none d-md-block">
-                  you do not go over your <br class="d-sm-none d-md-block">
-                  limit.</p>
-              </div>
+          <div class="row px-5">
+            <div class="col-md-6 text-center">
+              <!-- <img class="img-fluid text-center" src="../assets/images/phone-expenses.svg" alt=""> -->
             </div>
-            <div class="d-md-flex py-3">
-              <div class="col-lg-6 px-2">
-                <img src="../assets/images/expenses3.svg" alt="">
-                <p class="py-3">Get an exact insight on <br class="d-sm-none d-md-block">
-                  where, when, and how <br class="d-sm-none d-md-block">
-                  much you have spent your <br class="d-sm-none d-md-block">
-                  money through our simple <br class="d-sm-none d-md-block">
-                  budgeting tools and <br class="d-sm-none d-md-block">
-                  expense tracker.</p>
+            <div class="col-md-6">
+              <div class="d-md-flex py-3">
+                <div class="col-lg-6 px-2">
+                  <img src="../assets/images/expenses1.svg" alt="">
+                  <p class="py-3 font-20">Get an exact insight on where, when, and how much you have spent your money through our simple budgeting tools and expense tracker.</p>
+                </div>
+                <div class="col-lg-6 px-2">
+                  <img src="../assets/images/expenses2.svg" alt="">
+                  <p class="py-3 font-20">Set your goals by giving yourself a daily, weekly, or monthly budget to ensure you do not go over your limit.</p>
+                </div>
               </div>
-              <div class="col-lg-6 px-2">
-                <img src="../assets/images/expenses4.svg" alt="">
-                <p class="py-3">You can save for your children’s <br class="d-sm-none d-md-block">
-                  education, an event, a special trip, <br class="d-sm-none d-md-block">
-                  leasing or buying cars... <br class="d-sm-none d-md-block">
-                  Download a well designed and <br class="d-sm-none d-md-block">
-                  structured bank statement right <br class="d-sm-none d-md-block">
-                  from the app in PDF or Excel <br class="d-sm-none d-md-block">
-                  Format. Forget about lengthy and <br class="d-sm-none d-md-block">
-                  wordy bank statements. 
-                  </p>
+              <div class="d-md-flex py-3">
+                <div class="col-lg-6 px-2">
+                  <img src="../assets/images/expenses3.svg" alt="">
+                  <p class="py-3 font-20">Save money aside with pots and separate it from your current balance.</p>
+                </div>
+                <div class="col-lg-6 px-2">
+                  <img src="../assets/images/expenses4.svg" alt="">
+                  <p class="py-3 font-20">You can save for your children’s education, an event, a special trip, leasing or buying cars... 
+                    Download a well designed and structured bank statement right from the app in PDF or Excel Format. Forget about lengthy and wordy bank statements.                   
+                    </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
+    </section>
 
-      <div class="cards p-5 d-flex flex-column">
+    <section>
+      <div class="container cards p-5 d-flex flex-column">
         <div class="text-center">
-          <h3 style="font-size: 48px; font-weight: 900;">Get benefits</h3>
+          <h2>Get benefits</h2>
         </div>
-        <div class="d-lg-flex justify-content-center py-5" style="gap: 2rem;">
-          
-          <div class="col-lg-4 p-5 each-card my-3" style="background: linear-gradient(313.58deg, rgba(255, 255, 255, 0) -43.67%, rgba(160, 146, 255, 0.221) 47.7%);">
+        <div class="d-lg-flex justify-content-center py-5" style="gap: 2rem;"> 
+          <div class="col-lg-4 p-5 each-card my-3">
             <div style="text-align: end;">
               <img src="../assets/images/benefits1.svg" alt="">
             </div>
             <div>
-              <h4 style="font-size: 32px;">Stay Updated!</h4>
+              <h3>Push Notification</h3>
             </div>
             <div class="py-3">
-              <p>Keep updated on your account flows 
-                with instant notifications. Get notified 
-                instantly on all your account activities, 
-                card payments, ATM withdrawals, 
-                transfers.
-              </p>              
+              <p class="font-20">Get notified instantly on all your account activities, card payments, ATM withdrawals, transfers.</p>              
             </div>
           </div>
-
           <div class="col-lg-4 p-5 each-card my-3" style="background: linear-gradient(175.86deg, #00CEC2 -28.14%, #614FDC 94.55%);">
             <div style="text-align: end;">
               <img src="../assets/images/benefits2.svg" alt="">
             </div>
             <div>
-              <h4 style="font-size: 32px;">Safety</h4>
+              <h3>Safety</h3>
             </div>
             <div class="py-3">
-              <p>Licensed by the Central Bank of the West African States (BCEAO) as an Electronic Money Institution, we comply with all the regulations and requirements to guarantee that your money is kept safe.  
+              <p class="font-20">We’ll comply with all the regulations and requirements to guarantee that your money is kept safe.
               </p>              
             </div>
-          </div>
-          
-          <div class="col-lg-4 p-5 each-card my-3" style="background: linear-gradient(313.58deg, rgba(255, 255, 255, 0) -43.67%, rgba(160, 146, 255, 0.221) 47.7%);">
+          </div>  
+          <div class="col-lg-4 p-5 each-card my-3">
             <div style="text-align: end;">
               <img src="../assets/images/benefits3.svg" alt="">
             </div>
             <div>
-              <h4 style="font-size: 32px;">Secure</h4>
+              <h3>Secure</h3>
             </div>
             <div class="py-3">
-              <p>Security is our top priority. MoneyFlap’s systems are built with secure cryptographic and cybersecurity keys, AES 256-bit encryption, biometric recognition, and 3D Secure Authentication. <br>
-                <br>
-                If you lose your debit card or it gets stolen, you can block it instantly in the app. 
-                Get a new one in the next few days! 
-                
-              </p>              
+              <p class="font-20">Our systems are built with secure cybersecurity keys, AES 256-bit encryption, biometric recognition, and 3D Secure Authentication.</p>              
             </div>
           </div>
         </div>
-        <div class="text-center" style="padding-bottom: 10rem;">
-          <button class="btn btn-primary" style="background-color: #705BFF; border-color: #705BFF; text-transform: capitalize; width: 200px; height: 55px; color: white;" type="button">Get Started</button>
+        <div class="text-center">
+          <button class="btn btn-success text-white px-5 py-3" type="button">Get Started</button>
         </div>
-
-        <div class="transfer" style="padding-top: 12rem; padding-bottom: 12rem;">
-
-          <!-- col -->
-
-          <div class="d-md-flex px-5 py-5">
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits01.svg" alt="">
-              </div>
-              <div class="">
-                <div class="container-boxes">
-                  <p class="boxes p-4">No hidden fees <br>
-                    No minimum balance <br>
-                     requirements. <br>
-                    No monthly fees <br>
-                  </p>
-                </div>
-  
-              </div>
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits02.svg" alt="">
-              </div>
-              <div class="">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Surfing within an inbuilt user- <br>
-                    guide to teach the user how <br>
-                     to maximize the app <br>
-                </div>
-              </div>
-  
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits03.svg" alt="">
-              </div>
-              <div class="">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Logging into the app <br>
-                    using voice and/or facial <br>
-                     recognition option       
-                  </p>
-                </div>
-  
-              </div>
-              
-            </div>
-          </div>
-
-          <!-- col2 -->
-
-          <div class="d-md-flex px-5 py-5">
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits04.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Safe and convenient <br>
-                     online/offline purchases <br>
-                      with the debit card
-                  </p>
-                </div>
-  
-              </div>
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits05.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Cash Withdrawal for free at <br>
-                     any MoneyFlap agent for <br>
-                     non-MoneyFlap accounts
-                  </p>
-                </div>
-              </div>
-  
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits06.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Three currency accounts <br>
-                     (CFA, Euro, USD) 
-                     <br>
-                     <br>
-                </div>
-  
-              </div>
-              
-            </div>
-          </div>
-
-          <!-- col3 -->
-
-          <div class="d-md-flex px-5 py-5">
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits07.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Local lingual and <br>
-                     24/ 7 support 
-                     <br>
-                     <br>
-                  </p>
-                </div>
-  
-              </div>
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits08.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Cash deposits for free at all <br>
-                    the MoneyFlap agents
-                    <br>
-                    <br>
-                  </p>
-                </div>
-              </div>
-  
-            </div>
-            <div class="d-grid col-md-4">
-              <div class="px-4">
-                <img src="../assets/images/benefits09.svg" alt="">
-              </div>
-              <div class="pt-4">
-                <div class="container-boxes">
-                  <p class="boxes p-4">Cash ﻿Withdrawals for free <br>
-                    at all the ATMs across the  <br>
-                    BCEAO region         
-                  </p>
-                </div>
-  
-              </div>
-              
-            </div>
-          </div>
-  
-  
-        </div>
-
       </div>
+    </section>
 
-      <div class="making-transfer d-md-flex"  style="background-image: url(../assets/images/making-transfer.png);">
+    <section>
+        <div class="transfer container mt-5 pt-5">
+          <div class="row px-5 py-5">
+            <div class="col-md-4 my-5">
+                <div class="container-boxes">
+                  <div class="boxes px-4">
+                    <div>
+                      <img src="../assets/images/benefits01.svg" alt="benefits" class="mb-4">
+                      <p class="font-20 mb-0">No hidden fees</p>
+                      <p class="font-20 mb-0">No minimum balance</p>
+                      <p class="font-20 mb-0">No monthly fees</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits02.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Surfing within an inbuilt user-guide to teach the user how to maximize the app</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits03.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Logging into the app using voice and/or facial recognition option</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits04.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Safe and convenient  online/offline purchases with the debit card</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits05.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Cash ﻿withdrawals for free at all the ATMs across the UEMOA region</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits06.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Three currency accounts (FCFA, Euro, USD)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits07.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Local lingual and 24/7 support</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits08.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Cash deposits for free at all the MoneyFlap agents</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-5">
+              <div class="container-boxes">
+                <div class="boxes px-4">
+                  <div>
+                    <img src="../assets/images/benefits09.svg" alt="benefits" class="mb-4">
+                    <p class="font-20 mb-0">Cash withdrawal for free at any MoneyFlap agent for non-MoneyFlap members</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
+    <section>
+      <div class="making-transfer d-md-flex"  style="background-image: url(../images/making-transfer.png);">
         <div class="col-md-8 px-5 d-flex flex-column justify-content-center">
           <div class="px-5">
             <div>
               <h2>Start making transfers</h2>
             </div>
-            <div class="py-4">
+            <div class="py-4 font-24">
               <p>Send and receive money instantly and without fees to anyone</p>
             </div>
           </div>
-
           <div class="d-flex making-buttons px-5" style="gap: 2rem;">
             <a href=""><img class="making-img" src="../assets/images/apple-button.svg" alt=""></a>
             <a href=""><img class="making-img" src="../assets/images/android-button.svg" alt=""></a>
           </div>
-  
         </div>
-
         <div class="col-md-4">
           <div class="making-phone-card">
             <img class="img-fluid making-phone" src="../assets/images/phone-transfer.svg" alt="">
           </div>
         </div>
-
-
-
       </div>
+    </section>
 
-      <div class="footer-logo">
-        <img class="px-5 pt-5 pb-2" src="../assets/images/logo-footer.svg" alt="">
-      </div>
-      <div class="footer px-5 d-lg-flex" style="background-color: #092348;">
-        <div class="col-lg-2">
-          <div>
-            <h3>product</h3>
-          </div>
-          <div class="d-flex flex-column">
-            <a style="text-transform: capitalize;
-              color: white;
-              font-size: 16px;
-              font-weight: 500;
-              text-decoration: none;" href="">About</a>
-            <a style="text-transform: capitalize;
-              color: white;
-              font-size: 16px;
-              font-weight: 500;
-              text-decoration: none;" href="">Jobs</a>
-            <a style="text-transform: capitalize;
-              color: white;
-              font-size: 16px;
-              font-weight: 500;
-              text-decoration: none;" href="">Press</a>
-            <a style="text-transform: capitalize;
-              color: white;
-              font-size: 16px;
-              font-weight: 500;
-              text-decoration: none;" href="">Get in Touch</a>
-          </div>
+    <footer>
+      <div class="footer-bg py-5">
+        <div class="px-5 mb-2 footer-logo">
+          <img src="../assets/images/logo-footer.svg" alt="logo-footer">
         </div>
-        <div class="col-lg-2 d-flex flex-column">
-          <div>
-            <h3>company</h3>
-          </div>
-          <div class="d-flex flex-column">
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">About</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Jobs</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Press</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Get in Touch</a>
-          </div>
-        </div>
-        <div class="col-lg-2 d-flex flex-column">
-          <div>
-            <h3>support</h3>
-          </div>
-          <div class="d-flex flex-column">
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">About</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Jobs</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Press</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Get in Touch</a>
-          </div>
-        </div>
-        <div class="col-lg-2 d-flex flex-column">
-          <div>
-            <h3>transparency</h3>
-          </div>
-          <div class="d-flex flex-column">
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">About</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Jobs</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Press</a>
-            <a style="text-transform: capitalize;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-decoration: none;" href="">Get in Touch</a>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex flex-column align-items-center">
-          <div class="title-footer">
-            <h4 style="font-size: 16px;">Want moneyflap news & updates?</h4>
-          </div>
-          <div class="d-flex align-items-center justify-content-end">
-            <div class="position-relative">
-              <input type="text" placeholder="Your email address" class="form-control input-footer"/>
+        <div class="px-5 row">
+          <div class="col">
+            <div>
+              <h4 class="text-secondary mb-1">PRODUCT</h4>
             </div>
-            <div class="position-absolute">
-              <a href="#" class="px-3"><img src="../assets/images/arrow-buton.svg" alt=""></a>
+            <div class="d-flex flex-column">
+              <a class="text-white text-decoration-none" href="">Sign Up</a>
+              <a class="text-white text-decoration-none" href="">Log In</a>
+              <a class="text-white text-decoration-none" href="">FAQ's</a>
+              <a class="text-white text-decoration-none" href="">Catalog Owners</a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div>
+              <h4 class="text-secondary mb-1">COMPANY</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <a class="text-white text-decoration-none" href="">About</a>
+              <a class="text-white text-decoration-none" href="">Jobs</a>
+              <a class="text-white text-decoration-none" href="">Press</a>
+              <a class="text-white text-decoration-none" href="">Get in Touch</a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div>
+              <h4 class="text-secondary mb-1">SUPPORT</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <a class="text-white text-decoration-none" href="">Pricing</a>
+              <a class="text-white text-decoration-none" href="">Suggest a Feature</a>
+              <a class="text-white text-decoration-none" href="">Get Help</a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div>
+              <h4 class="text-secondary mb-1">TRANSPARENCY</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <a class="text-white text-decoration-none" href="">Terms & Conditions</a>
+              <a class="text-white text-decoration-none" href="">Privacy Policy</a>
+              <a class="text-white text-decoration-none" href="">Cookies Policy</a>
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div>
+              <h4 class="text-secondary mb-1">LOCATION</h4>
+            </div>
+            <div class="d-flex flex-column">
+              <a class="text-white text-decoration-none" href="">Dakar, Senegal</a>
+              <a class="text-white text-decoration-none" href="">San Francisco, California, USA</a>
+              <a class="text-white text-decoration-none" href="">Singapore</a>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center">
+            <div class="title-footer">
+              <p class="font-20 mb-0">Want moneyflap news & updates?</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-end">
+              <div>
+                <input type="text" placeholder="Your email address" class="form-control input-footer"/>
+              </div>
+              <div class="position-absolute">
+                <a href="#" class="px-3"><img src="../assets/images/arrow-buton.svg" alt=""></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="px-5 py-2">
-        <hr style="border: 1px solid #FFFFFF;">
-      </div>
-      
-      <div class="social-media d-flex justify-content-between px-5">
-        <div class="d-flex align-items-center col-6" style="gap: 2%;">
-          <img src="../assets/images/copyright-fill.svg" alt="">
-          <h4 style="font-weight: 400;" class="mb-0">2021 MoneyFlap | Verified by VISA, Licensed by BCEAO</h4>
+        <div class="px-5 py-3">
+          <hr style="border: 1px solid #FFFFFF;">
         </div>
-        <div class="col-6 d-md-flex justify-content-end" style="gap: 2%;">
-          <a href=""><img src="../assets/images/Facebook.svg" alt=""></a>
-          <a href=""><img src="../assets/images/Instagram.svg" alt=""></a>
-          <a href=""><img src="../assets/images/Skype.svg" alt=""></a>
-          <a href=""><img src="../assets/images/Twitter.svg" alt=""></a>
+        <div class="social-media d-flex justify-content-between px-5">
+          <div class="d-flex align-items-center col-6" style="gap: 2%;">
+            <img src="../assets/images/copyright-fill.svg" alt="">
+            <h4 style="font-weight: 400;" class="mb-0">2021 MoneyFlap</h4>
+          </div>
+          <div class="col-6 d-md-flex justify-content-end" style="gap: 2%;">
+            <a href=""><img src="../assets/images/Facebook.svg" alt=""></a>
+            <a href=""><img src="../assets/images/Instagram.svg" alt=""></a>
+            <a href=""><img src="../assets/images/Skype.svg" alt=""></a>
+            <a href=""><img src="../assets/images/Twitter.svg" alt=""></a>
+          </div>
         </div>
       </div>
+    </footer>
 
   </main>
 

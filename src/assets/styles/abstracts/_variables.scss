@@ -17,9 +17,9 @@ $cyan: material-color('cyan', 'a400');
 $gray: material-color('grey', '600');
 $gray-dark: material-color('grey', '800');
 
-$primary: material-color('orange', 'a200') !default;
-$secondary: material-color('blue', 'a400') !default;
-$success: $green !default;
+$primary: #142339 !default;
+$secondary: #00CEC2 !default;
+$success: #705BFF !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
@@ -44,7 +44,7 @@ $font-weight-bold: 500;
 $font-weight-bolder: 900;
 
 $h1-font-size: $font-size-base * 2.75;
-$h2-font-size: $font-size-base * 2;
+$h2-font-size: 44px;
 $h3-font-size: $font-size-base * 1.75;
 
 $headings-font-weight: $font-weight-bolder;

@@ -161,7 +161,6 @@ button.navbar-toggler-icon {
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
-  padding-top: 16rem;
 }
 
 .making-transfer h2 {
@@ -250,56 +249,45 @@ button.navbar-toggler-icon {
   }
 }
 
-// .navbar-light .navbar-toggler-icon {
-//   background-image: url(../../images/icon-hamburguer.png);
-// }
+// CARDS SECTION
 
-// .footer a{
-//     text-transform: capitalize;
-//     color: white;
-//     font-size: 16px;
-//     font-weight: 500;
-//     text-decoration: none;
-//   }
-
-.cards {
-  background-repeat: no-repeat;
+.img-cards {
   width: 100%;
+  position: absolute;
+  margin-top: -30vh;
+}
+
+.bg-cards {
+  background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 16rem;
+  background-position: center;
+  height: 1200px;
+}
+
+.h-cards {
+  height: 1000px;
+} 
+
+// CUSTOMIZE SECTION
+
+.bg-customize {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1300px;
+  margin-top: -15vh;
+  background-position: center;
+}
+
+.img-customize {
+  position: absolute;
+  width: 100%;
+  margin-top: -40vh;
 }
 
 .each-card {
   border-radius: 25px;
-}
-
-//   .cards p{
-//     font-size: 18px;
-//   }
-
-//   @media screen and (max-width: 767px) {
-//     .cards p{
-//         font-size: 50px;
-//     }
-// }
-
-.cards p {
-  font-size: 18px;
-}
-@media screen and (min-width: 768px) {
-  .cards p {
-    font-size: 15px;
-  }
-}
-
-.cards h2 {
-  font-size: 52px;
-}
-
-@media screen and (max-width: 1000px) {
-  .cards h2 {
-    font-size: 38px;
-  }
+  background: linear-gradient(313.58deg, rgba(255, 255, 255, 0) -43.67%, rgba(160, 146, 255, 0.221) 47.7%);
+  height: 330px;
 }
 
 .cards input {
@@ -329,15 +317,8 @@ button.navbar-toggler-icon {
   }
 }
 
-.customizable {
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: cover;
-  padding-top: 16rem;
-}
-
 .input-footer {
-  width: 220px;
+  width: 348px;
   height: 48px;
   border-radius: 30px;
   border: 2px solid rgba(255, 255, 255, 0.3);
@@ -352,4 +333,41 @@ button.navbar-toggler-icon {
   border-bottom: 1px solid #94a3b8;
   border-left: 1px solid #94a3b8;
   border-bottom-left-radius: 20px;
+  height: 250px;
+  display: grid;
+  align-items: center;
+}
+
+// Cursor
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.z-index-30 {
+  z-index: 30;
+}
+
+// Font sizes
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.m-t-10vh {
+  margin-top: 10vh;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+// Footer SECTION
+
+.footer-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(0, 0, 0, 0.95);
 }
